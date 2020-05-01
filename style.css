@@ -1,0 +1,359 @@
+html,
+body {
+    position: relative;
+    width: 1440px;
+    height: 2047px;
+    background: #FFFFFF;
+}
+
+h1.heder {
+    visibility: hidden;
+}
+
+.logo {
+    margin-top: 60px;
+    margin-left: 547px;
+    width: 347px;
+    height: 47px;
+}
+
+.main-menu ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+  
+.main-menu li {
+    display: inline-block;
+    margin: 0px;
+    margin-top: 46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+}
+
+header li a {
+    color: #000000;
+    text-decoration-line: none;
+}
+
+.main-menu li:nth-child(1) {
+    margin: 0px;
+    margin-left: 135px;
+    margin-right: 54px;
+    margin-bottom: 47px;
+}
+
+.main-menu li:nth-child(2),
+           li:nth-child(5) {
+    margin: 0px;
+    margin-right: 52px;
+}
+
+.main-menu li:nth-child(3),
+           li:nth-child(7) {
+    margin: 0px;
+    margin-right: 50px;
+}
+
+.main-menu li:nth-child(4),
+           li:nth-child(6),
+           li:nth-child(8) {
+    margin: 0px;
+    margin-right: 51px;
+}
+
+section.dubai {
+    background-image: url(img/dubai.jpg);
+    position: absolute;
+    width: 1440px;
+    height: 464px;
+    
+}
+
+.dubai img {
+    margin-left: 693px;
+    margin-top: 46px;
+    width: 55px;
+    height: 55px;
+}
+
+.dubai .hotel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.dubai .text_dubai {
+    height: 64px;
+    width: 466px;
+    margin-left: 492px;
+    margin-right: 496px;
+    margin-top: 105px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+section.obzor {
+    height: 410px;
+    margin-top: 490px;
+    position: absolute;
+    z-index: 2;
+}
+
+.obzor .gol_obzor {
+    margin-left: 678px;
+    margin-top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #000000;
+}
+
+div.arts {
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.arts div {
+    width: 370px;
+    height: 203px;
+    margin-right: 29px;
+    margin-left: 70px;
+}
+
+h3 a {
+    font-family: Playfair Display;
+    font-style: normal;
+    text-align: start;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    color: #000000;
+    text-decoration-line: none;
+}
+
+h3 .hed_2 {
+    color: #FF7931;
+}
+
+p:not(.text_dubai) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    width: 368px;
+    height: 64px;
+    letter-spacing: 0.1px;
+
+    color: #000000;
+    text-align: left;
+}
+
+section.abonement {
+    position: absolute;
+    width: 1440px;
+    height: 556px;
+    margin-left: 0px;
+    margin-top: 940px;
+    background: #F7F7F7;
+    mix-blend-mode: normal;
+    overflow: hidden;
+}
+
+.abonement div.krug {
+    
+    margin-left: 363px;
+    width: 707px;
+    height: 707px;
+    background-color: #FFFFFF;
+    margin-top: -90px;
+    border-radius: 50%;
+
+}
+
+.abonement .krug h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #000000;
+    margin-left: 241px;
+    padding-top: 140px;
+    width: 250px;
+    height: 20px;
+}
+
+.abonement ul {
+    margin-left: 173px;
+    margin-top: 35px;
+    padding: 0;
+    list-style: none;
+}
+
+.abonement-item h3 {
+    
+    width: 368px;
+    height: 31px;
+    margin-bottom: 10px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* черный */
+
+    color: #000000;
+}
+
+.abonement-item p {
+    width: 370px;
+    height: 63px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+button {
+    width: 170px;
+    height: 47px;
+    margin-left: 272px;
+    top: 1618px;
+    background: #FF7931;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    list-style-image: url(img/Group18.png);
+}
+
+footer {
+    width: 1440px;
+    height: 295px;
+    margin-left: 0px;
+    margin-top: 1551px;
+
+    background: #575757;
+}
+
+footer .logo img {
+    margin-top: 50px;
+}
+
+footer ul {
+    height: 85px;
+}
+
+footer li a {
+    margin-top: 32px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-top: 10px;
+    width: 1170px;
+    height: 0.5px;
+    background-color: rgb(160, 155, 155);
+    border: 0.5px solid rgb(160, 155, 155);
+    
+}
+
+div.social  {
+    display: flex;
+    justify-content:center;
+    align-content: space-between;
+    width: 190px;
+    height: 50px;
+    margin-left: 640px;
+    margin-top: 42px;
+    
+}
+
+div .social-item {
+    height: 47px; 
+    width: 47px;
+    background-color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+    
+}
+
+
+
+.social-item img:first-child {
+    height: 23px;
+    width: 24px;
+    margin-top: 12px;
+    margin-left: 12px; 
+}
+
+.social-item img:nth-child(2) {
+    height: 22px;
+    width: 12px;
+    margin-top: 13px;
+    margin-left: 17px; 
+}
+
+
+/*
+
+
+
+  */
